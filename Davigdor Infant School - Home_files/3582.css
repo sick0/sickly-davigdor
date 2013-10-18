@@ -1,0 +1,232 @@
+.Border {
+	padding:3px;
+	border:1px solid #555;
+}
+
+.Double-Border {
+	padding:3px;
+	border:3px double #555;
+}
+
+.Dotted-Border {
+	padding:3px;
+	border:1px dotted #555;
+}
+
+.Thick-Border {
+	padding:3px;
+	border:2px solid #555;
+}
+
+.Light-Border {
+	padding:3px;
+	border:1px solid #999;
+}
+
+.Light-Double-Border {
+	padding:3px;
+	border:3px double #999;
+}
+
+.Light-Dotted-Border {
+	padding:3px;
+	border:1px dotted #999;
+}
+
+.Light-Thick-Border {
+	padding:3px;
+	border:2px solid #999;
+}
+
+/* Tiny Styles */
+
+html, body {
+	padding:0;
+	margin:0;
+}
+
+body *:first-child {
+	margin-top:0;
+}
+body#tinymce { background:#ffffff; }
+.clearfloat {
+	clear:both;
+	float:none;
+	height:0px;
+	overflow:hidden;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,p {
+	margin-top:0em; 
+	margin-bottom:0.5em;
+}
+
+
+img { border:none; }
+
+body {
+	margin:0px;
+	padding:0px;
+	
+	font-family: "Comic Sans MS";
+	font-size:13px;
+
+        color:#000;
+}
+
+h1 { font-size:1.4em;}
+h2 { font-size:1.3em;}
+h3 { font-size:1.2em; }
+h4 { font-size:1.1em; }
+h5 { font-size:1em;; }
+
+
+#outer-wrapper {
+	width:100%;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+        
+}
+
+#wrapper {
+	width:976px;
+	margin:0px auto;	
+      background:url(http://www.schooljotter.com/images/davigdor/content-tile.jpg) center repeat-y;
+
+}
+
+#contentwrapper {
+	width:976px;
+	margin:0px auto;
+	
+}
+
+#header {
+	height:282px;	
+        width:976px;
+        background:url(http://www.schooljotter.com/images/davigdor/header.jpg) center no-repeat;
+}
+
+#nav {
+	width:300px;
+	float:left;
+        top:-40px;
+}
+
+#nav ul {
+	margin:0;
+	padding:0px 4px 30px 14px;
+}
+
+#nav ul li {
+	list-style:none;
+	height:76px;
+	margin-bottom:10px;
+}
+
+
+#nav ul li.expand {
+	height:100%;
+	background:none;
+}
+
+#nav ul li ul {
+	 padding:0 0 0 17px;
+}
+
+#nav ul li ul li {
+	height:auto;
+	margin-bottom:5px;
+	background:none;
+}
+
+#nav ul li ul li a {
+	padding-top:0px;
+	height:auto;
+	overflow:auto;
+        font-weight:bold;
+	font-size:1.1em;
+        color:#000;
+	text-decoration:none;
+}
+
+#nav ul li ul li a:hover {
+	text-decoration:underline;
+}
+
+
+#nav ul li.m1 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-1-menu.png) no-repeat; }
+#nav ul li.m2 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-2-menu.png) no-repeat; }
+#nav ul li.m3 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-3-menu.png) no-repeat; }
+#nav ul li.m4 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-4-menu.png) no-repeat; }
+#nav ul li.m5 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-5-menu.png) no-repeat; }
+#nav ul li.m6 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-6-menu.png) no-repeat; }
+#nav ul li.m7 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-7-menu.png) no-repeat; }
+#nav ul li.m8 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-8-menu.png) no-repeat; }
+#nav ul li.m9 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-9-menu.png) no-repeat; }
+#nav ul li.m10 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-10-menu.png) no-repeat; }
+#nav ul li.m11 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-11-menu.png) no-repeat; }
+#nav ul li.m12 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-12-menu.png) no-repeat; }
+#nav ul li.m13 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-13-menu.png) no-repeat; }
+#nav ul li.m14 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-14-menu.png) no-repeat; }
+#nav ul li.m15 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-15-menu.png) no-repeat; }
+#nav ul li.m16 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-16-menu.png) no-repeat; }
+#nav ul li.m17 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-17-menu.png) no-repeat; }
+#nav ul li.m18 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-18-menu.png) no-repeat; }
+#nav ul li.m19 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-19-menu.png) no-repeat; }
+#nav ul li.m20 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-20-menu.png) no-repeat; }
+#nav ul li.m21 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-21-menu.png) no-repeat; }
+#nav ul li.m22 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-22-menu.png) no-repeat; }
+#nav ul li.m23 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-23-menu.png) no-repeat; }
+#nav ul li.m24 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-24-menu.png) no-repeat; }
+#nav ul li.m25 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-25-menu.png) no-repeat; }
+#nav ul li.m26 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-26-menu.png) no-repeat; }
+#nav ul li.m27 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-27-menu.png) no-repeat; }
+#nav ul li.m28 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-28-menu.png) no-repeat; }
+#nav ul li.m29 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-29-menu.png) no-repeat; }
+#nav ul li.m30 { background:url(http://cache.schooljotter.com/assets/davigdor-3582-30-menu.png) no-repeat; }
+
+#nav ul li a {
+	display:block;
+	padding-top:76px;
+	height:0;
+	overflow:hidden;
+	color:#fff;
+	text-decoration:none;
+	font-size:0.75em;
+}
+
+#nav ul li a {
+	text-decoration:underline;
+}
+
+#content {
+	float:left;
+	width:650px;
+        top:-40px;
+      min-height: 600px;
+	height: auto !important;
+	height: 600px;
+	padding:5px 0px 20px 10px;
+}
+
+#footer {
+	padding:86px 0 0 0;
+	color:#000;        background:url(http://www.schooljotter.com/images/davigdor/footer.jpg) #fff center top no-repeat;
+	text-align:center;
+	width:976px;
+	height: 25px;
+	margin: 0 auto;
+}
+
+	#footer a {
+		color:#000;
+		text-decoration:none;
+	}
+
+	
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }

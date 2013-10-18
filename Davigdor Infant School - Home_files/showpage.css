@@ -1,0 +1,321 @@
+/* Float Fix for naughty divs */
+.floatfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.kidszone .item {
+	margin: 15px;
+	display: block;
+}
+.kidszone .item img {
+	background: #fff;
+	border: 1px solid #000;
+	padding: 5px;
+}
+.kidszone {
+	text-align: center;
+}
+
+body#tinymce {
+	background:#ffffff;
+}
+
+#content p.expirydate {
+	color:#666666;
+	text-align:right;
+	font-size:0.8em;
+}
+
+#lightbox{
+	position: absolute;
+	top: 20px;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	color:#151410;
+	}
+
+#lightbox a, #lightbox a:hover {
+	border-bottom:none;
+	color:#151410;
+	text-decoration:underline;
+}
+
+#lightbox a img{ border: none; padding: 5px;}
+
+#outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#imageContainer{
+	padding: 10px;
+	}
+
+#loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+#loadingLink {
+	display:block;
+	margin:0 auto;
+	padding:0;
+	width:32px;
+	height:32px;
+	background:url("../images/loading.gif") center center no-repeat;
+	text-indent:-9999px;
+}
+#hoverNav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+	}
+#imageContainer>#hoverNav{ left: 0;}
+#hoverNav a{ outline: none;}
+
+#prevLinkImg, #nextLinkImg{
+	width: 49%;
+	height: 100%;
+	background: transparent url("../images/blank.gif") no-repeat; /* Trick IE into showing hover */
+	display: block;
+	text-indent:-9999px;
+	}
+#prevLinkImg { left: 0; float: left;}
+#nextLinkImg { right: 0; float: right;}
+#prevLinkImg:hover, #prevLinkImg:visited:hover { background: url("../images/prevlabel.gif") left 15% no-repeat; }
+#nextLinkImg:hover, #nextLinkImg:visited:hover { background: url("../images/nextlabel.gif") right 15% no-repeat; }
+
+
+#imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	}
+
+#imageData{
+	padding:0 10px;
+	}
+#imageDetails{ width: 70%; float: left; text-align: left; }	
+#caption{ font-weight: bold;	}
+#numberDisplay{ display: block; clear: left; }			
+#detailsNav{ display: block; clear: left; padding:0 0 10px 0;	}	
+#prevLinkDetails { margin:0 8px 0 0; }		
+#nextLinkDetails { margin:0 8px 0 0; }		
+#closeLink {
+	display:block;
+	margin:0;
+	padding:0 0 10px 0;
+	text-decoration:none;
+	float:right;
+	width:66px;
+	height:28px;
+	background:url("../images/closelabel.gif") no-repeat;
+	text-indent:-9999px;
+	overflow:hidden;
+}	
+		
+#overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #151410;
+	filter:alpha(opacity=60);
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+	}
+
+.feed_title,
+.feed_group {
+	margin: 10px 0px;
+}
+
+.text_left {
+	text-align: left;
+}
+
+.text_right {
+	text-align: right;
+}
+
+#_group_bar {
+	
+}
+	#_group_bar ._group_bar_theme_default {
+		height: 40px;
+		line-height: 40px;
+		background-color: #7e7e7e;
+	}
+	#_group_bar ._group_bar_wrapper {
+		width: 960px;
+		margin: 0px auto;
+	}
+	#_group_bar ._group_bar_column {
+		float: left;
+		width: 50%;
+	}
+	#_group_bar ._group_bar_clear {
+		width: 0px;
+		height: 0px;
+		clear: both;
+		float: none;
+		overflow: hidden;
+	}
+	
+	
+
+.clearfix:after {
+	content: "."; 
+	display: block; 
+	height: 0; 
+	clear: both; 
+	visibility: hidden;
+	}
+
+* html>body .clearfix {
+	display: inline-block; 
+	width: 100%;
+	}
+
+* html .clearfix {
+	/* Hides from IE-mac \*/
+	height: 1%;
+	/* End hide from IE-mac */
+	}	
+	
+#dialog {font-family:Verdana, Arial, Helvetica; font-size:14px; position:absolute; width:425px; padding:0px; z-index:200;}
+#dialog-header {display:block; position:relative; width:411px; padding:3px 6px 7px; height:14px; font-size:14px; font-weight:bold}
+#dialog-title {float:left; color:#535353;}
+#dialog-close {float:right; cursor:pointer; margin:3px 3px 0 0; height:11px; width:11px; background:url(images/dialog_close.gif) no-repeat}
+#dialog-content {display:block; height:140px; padding:6px; color:#FFFFFF; font-size:13px; vertical-align:middle; background:#747474;}
+#dialog-mask {position:absolute; top:0; left:0; min-height:100%; width:100%; background:#FFF; opacity:.75; filter:alpha(opacity=75); z-index:100}
+.error {background:#fff url(images/error_bg.jpg) bottom right no-repeat; border:1px solid #747474; border-top:none}
+.errorheader {background:#DFDFDF; color:#747474; border:1px solid #DFDFDF; border-bottom:none}
+.warning {background:#fff url(images/warning_bg.jpg) bottom right no-repeat; border:1px solid #747474; border-top:none}
+.warningheader {background:#DFDFDF; color:#747474; border:1px solid #DFDFDF; border-bottom:none}
+.success {background:#fff url(images/success_bg.jpg) bottom right no-repeat; border:1px solid #60a174; border-top:none}
+.successheader {background:url(images/success_header.gif) repeat-x; color:#3c7f51; border:1px solid #60a174; border-bottom:none}
+.prompt {background:#fff url(images/prompt_bg.jpg) bottom right no-repeat; border:1px solid #4f6d81; border-top:none}
+.promptheader {background:url(images/prompt_header.gif) repeat-x; color:#355468; border:1px solid #4f6d81; border-bottom:none}
+
+/**
+ * jQuery lightBox plugin
+ * This jQuery plugin was inspired and based on Lightbox 2 by Lokesh Dhakar (http://www.huddletogether.com/projects/lightbox2/)
+ * and adapted to me for use like a plugin from jQuery.
+ * @name jquery-lightbox-0.5.css
+ * @author Leandro Vieira Pinho - http://leandrovieira.com
+ * @version 0.5
+ * @date April 11, 2008
+ * @category jQuery plugin
+ * @copyright (c) 2008 Leandro Vieira Pinho (leandrovieira.com)
+ * @license CCAttribution-ShareAlike 2.5 Brazil - http://creativecommons.org/licenses/by-sa/2.5/br/deed.en_US
+ * @example Visit http://leandrovieira.com/projects/jquery/lightbox/ for more informations about this jQuery plugin
+ */
+#jquery-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+}
+#jquery-lightbox {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+}
+#jquery-lightbox a img { border: none; }
+#lightbox-container-image-box {
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+}
+#lightbox-container-image { padding: 10px; }
+#lightbox-loading {
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+}
+#lightbox-nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 10;
+}
+#lightbox-container-image-box > #lightbox-nav { left: 0; }
+#lightbox-nav a { outline: none;}
+#lightbox-nav-btnPrev, #lightbox-nav-btnNext {
+	width: 49%;
+	height: 100%;
+	zoom: 1;
+	display: block;
+}
+#lightbox-nav-btnPrev {
+	left: 0;
+	float: left;
+}
+#lightbox-nav-btnNext {
+	right: 0;
+	float: right;
+}
+#lightbox-container-image-data-box {
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%;
+	padding: 0 10px 0;
+}
+#lightbox-container-image-data {
+	padding: 0 10px;
+	color: #666;
+}
+#lightbox-container-image-data #lightbox-image-details {
+	width: 70%;
+	float: left;
+	text-align: left;
+}
+#lightbox-image-details-caption { font-weight: bold; }
+#lightbox-image-details-currentNumber {
+	display: block;
+	clear: left;
+	padding-bottom: 1.0em;
+}
+#lightbox-secNav-btnClose {
+	width: 66px;
+	float: right;
+	padding-bottom: 0.7em;
+}
