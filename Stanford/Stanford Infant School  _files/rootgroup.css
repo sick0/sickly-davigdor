@@ -1,0 +1,32 @@
+/*AdvancedView:0,BorderColour:009900,BackgroundColour:ccffcc,LinkFontColour:336633,,,LinkHoverFontColour:003300,,,HeadingColour:ffffff,,HeadingFontWeight:normal,HeadingFontSize:small,HeadingBackgroundColour:009900,,,,,,,,,,,,,,,,,,,,,BodyBlockColour:009900,BodyBlockHeadingColour:ffffff,,BodyBlockHeadingFontWeight:normal,BodyBlockHeadingFontSize:small,BodyBlockBackgroundColour:ccffcc,,BodyFont:Verdana,BodyFontSize:x-small,,,BodyHeadingFontSize:small,BodyHeadingFontWeight:normal,,HRColour:009900*/
+.rootgroupstylegrouppanel {}
+.rootgroupstyle .tc{background-color : 009900;height : 0px;color : ffffff;font-Size: small;font-weight: normal;padding:0.4em;padding-left:0.5em;background-repeat:repeat-x;}	
+.rootgroupstyle .tc a{ color : ffffff;font-weight: normal;font-Size: small;text-decoration:none; } 
+.rootgroupstyle .tc a:hover{ color : ffffff;font-weight: normal;font-Size: small;text-decoration:underline; } 
+.rootgroupstyle .mc {background-color : ccffcc;border : 1px solid #009900;padding:0.3em;}
+.rootgroupstyle .bl,rootgroupstyle .bc,rootgroupstyle .br {visibility:hidden;display:none;}
+.rootgroupstyle .hr {margin-top:5px;margin-bottom:5px;overflow:hidden; height:1px; background-color : 009900;}
+.rootgroupstyle hr {border: none 0; border-top: 1px solid #; }
+.rootgroupstyle a {color : 336633;}
+.rootgroupstyle a:hover {color : 003300;}
+.rootgroupstyle .uniSection h2{font-Size: small;font-weight: normal;padding-top:0.4em;padding-bottom:0.2em;}
+.rootgroupstyle .uniSection h2 a{font-Size: small;font-weight: normal;padding-top:0.4em;padding-bottom:0.2em;}
+.rootgroupstyle .uniBlock{border:1px solid  #009900;}
+.rootgroupstyle .uniBlockHeading {background-color : 009900;color : ffffff;font-weight: normal;font-Size: small;padding:0.2em;}
+.rootgroupstyle .uniBlockHeading a{background-color : 009900;color : ffffff;font-weight: normal;font-Size: small;padding:0.2em;}
+.rootgroupstyle .uniBlockBackground {background-color: ccffcc;padding:0.2em;}
+.rootgroupstyle .uniTable {border-collapse:collapse;margin-top:0.5em;margin-bottom:0.5em;}
+.rootgroupstyle .uniTable td {border:1px solid  #009900;background-color: ccffcc;padding:0.2em;}
+.rootgroupstyle .uniTable th {border:1px solid  #009900;background-color : 009900;color : ffffff;font-weight: normal;font-Size: small;}
+.rootgroupstyle .uniTable th a{color : ffffff;}
+.rootgroupstyle .uniBackground {background-color : ccffcc;}
+.rootgroupstyle .uniButton {color : ffffff;background-color : 009900;margin-bottom:2px} 	
+.rootgroupstyle td {font-family : Verdana;font-Size: x-small;}
+.rootgroupstyle div {font-family : Verdana;font-Size: x-small;}
+.rootgroupstyle legend {font-Size: small;font-weight: normal;;}
+.rootgroupstyle label {font-family : Verdana;font-Size: x-small;}
+.rootgroupstyle input {font-family : Verdana;font-Size: x-small;}
+.rootgroupstyle select {font-family : Verdana;font-Size: x-small;}
+.rootgroupstyle textarea {font-family : Verdana;font-Size: x-small;}
+.rootgroupstyle fieldset {border-color:#009900; }
+.rootgroupstyle fieldset .sub legend{font-family : Verdana;font-Size: x-small;font-weight:normal;}

@@ -1,0 +1,779 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!-- saved from url=(0065)https://www.school-portal.co.uk//GroupHomePage.asp?GroupId=585740 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
+		<meta name="robots" content="noarchive">
+		
+		
+		<!--<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8" />-->
+		
+
+		<title>Stanford Infant School *</title>
+		
+		
+		
+		<link rel="shortcut icon" href="https://www.school-portal.co.uk//favicon.ico">
+		
+		<link rel="stylesheet" href="./Stanford Infant School  _files/forms.css" type="text/css">
+		
+		
+		<link rel="stylesheet" href="./Stanford Infant School  _files/group.css" type="text/css">
+		<link rel="stylesheet" href="./Stanford Infant School  _files/rootgroup.css" type="text/css">
+		<link rel="stylesheet" href="./Stanford Infant School  _files/my.css" type="text/css">
+		<link rel="stylesheet" href="./Stanford Infant School  _files/clc.css" type="text/css">
+		<style type="text/css">
+		
+		    div.autocomplete {
+              margin:0px;  
+              padding:0px;  
+              width:250px;
+              background:#fff;
+              border:1px solid #888;
+              position:absolute;
+            }
+
+            div.autocomplete ul {
+              margin:0px;
+              padding:0px;
+              list-style-type:none;
+            }
+
+            div.autocomplete ul li.selected { 
+              background-color:#ffb;
+            }
+
+            div.autocomplete ul li {
+              margin:0;
+              padding:2px;
+              height:32px;
+              display:block;
+              list-style-type:none;
+              cursor:pointer;
+            }
+
+		.GroupBorderColour {background-color : #009900;}
+		.GroupBackgroundColour {background-color : #ccffcc;}
+		.GroupBackgroundColourBorder {background-color : #ccffcc; border : 1px solid #009900;}
+		.GroupHeadingColour {color : ffffff; font-size:x-small; padding-left:4px;}
+		.GroupTabColour {background-color : #009900;}
+		.GroupTabBackgroundColour {background-color : #ccffcc; border : 1px solid #009900;}
+		.GroupTabHeading {color : #ffffff; font-size:x-small;}
+		.GroupHighlightColour {background-color : #009900;}
+		.GroupButtonColour {background-color : #009900;color : ffffff;}
+		A.GroupHeadingLinkColour {color : ffffff; font-size:x-small;text-decoration : underline;}
+
+		.PersonalBorderColour {background-color : ffffff;}
+		.PersonalBackgroundColour {background-color : #ccffcc;}
+		.PersonalBackgroundColourBorder {background-color : #ccffcc; border : 1px solid #ffffff;}
+		.PersonalHeadingColour {color : 003300; font-size:x-small; padding-left:4px;}
+		.PersonalTabColour {background-color : 336633;}
+		.PersonalTabBackgroundColour {background-color : #ccffcc; border : 1px solid #336633;}
+		.PersonalTabHeading {color : ffffff;font-size:x-small;}
+		.PersonalSubHeading {color : 000000; font-size:x-small;}
+		A.PersonalHeadingLinkColour {color : 003300; font-size:x-small;text-decoration : underline;}
+
+		.ControlBorderColour {background-color : 009900;}
+		.ControlBackgroundColour {background-color : ffffff; }
+		.ControlBackgroundColourBorder {background-color : ffffff; border : 1px solid #009900;}
+		.ControlHeadingColour {color : FFFFFF; font-size:x-small; padding-left:4px;}
+		.ControlTabColour {background-color : 009900;}
+		.ControlTabBackgroundColour {background-color : ffffff; border : 1px solid #009900;}
+		.ControlTabHeading {color : ffffff; font-size:x-small;}
+		.ControlSubHeading {color : 000000; font-size:x-small;}
+		A.ControlHeadingLinkColour {color : FFFFFF; font-size:x-small;text-decoration : underline;}
+
+
+
+		.buttonlink{
+		border : solid 1px #ccffcc;
+		}
+		.buttonlink:hover{
+		background-color : #dddddd;
+		border : solid 1px #ccffcc;
+		}
+
+		.red {color : #ff0000;}
+
+		span.link a:hover {background-color: transparent ;color:transparent;}
+		span.link a:link span{display: none;}
+		span.link a:visited span{display: none;}
+		span.link a:hover span {
+		position: absolute;
+		width:400px;
+		margin:22px 0px 0px 20px;
+		display: block;}
+		  
+		tr.resourcerow td.highlightenable{
+			padding-top : 1px;
+			padding-bottom : 1px;
+		}
+		 
+		tr.resourcerowhighlight td.highlightenable{
+			border-top : 1px solid #009900;
+			border-bottom : 1px solid #009900;
+			padding-top : 0px;
+			padding-bottom : 0px;
+		}
+		</style>
+		
+		<script type="text/javascript" src="./Stanford Infant School  _files/pagefunctions.js"></script>
+		<script language="javascript" type="text/javascript" src="./Stanford Infant School  _files/ProfileSetFunctions.js"></script>
+		<script language="JavaScript" type="text/javascript">
+		//<![CDATA[
+		
+
+		function PageUnSaved(formElement){
+			bChange=true
+			if (formElement){
+				if (formElement.type=="radio" && formElement.checked==true){bChange=false}
+			}
+
+			if (bChange)
+				{
+				var label1=document.getElementById("PageUpdatedLabel1");
+				if (label1){label1.innerHTML="[Unsaved Changes] "};
+				var label2=document.getElementById("PageUpdatedLabel2");
+				
+				if (label2)
+					{
+					if (label2.innerHTML == '')
+						{
+						label2.innerHTML='<img src="/platforms/default/images/global/attention.gif" alt="Unsaved Changes" title="Unsaved Changes">'
+						}
+					}
+				
+				}
+		}
+
+
+
+        function GetMyCommSubGroups(PanelID, RootGroupID)
+        {
+            //var i=document.getElementById(RootGroupID);
+            //i.innerHTML ='Sub groups go here.';
+            
+            
+            var xmlHttp;
+            try
+              {
+              // Firefox, Opera 8.0+, Safari
+              xmlHttp=new XMLHttpRequest();
+              }
+            catch (e)
+              {
+              // Internet Explorer
+              try
+                {
+                xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+                }
+              catch (e)
+                {
+                try
+                  {
+                  xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+                  }
+                catch (e)
+                  {
+                  return false;
+                  }
+                }
+              }            
+            
+            
+                xmlHttp.onreadystatechange=function()
+                {
+                if(xmlHttp.readyState==4)
+                  {
+                  var i=document.getElementById(PanelID);
+                  i.innerHTML=xmlHttp.responseText;
+                  }
+                }            
+            
+            xmlHttp.open("GET","/functions/CommunitySubGroupsGet.asp?RootGroupID=" + RootGroupID + "&rnd=" + Math.random(),true);
+            xmlHttp.send(null);
+            
+        }
+//]]>
+		</script>
+	
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="https://www.sickly.org/school/3/banner.js"></script>
+
+	</head>
+<body style="background : #ffffff">
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0" style="
+background-image : url(/platforms/585740/585740/images/Background.gif);background-repeat :repeat-x;">
+	<tbody><tr valign="top">
+		<td colspan="3">
+			
+<table bgcolor="FFFFFF" width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tbody><tr>
+		<td>
+
+	</td></tr><tr valign="top"><td colspan="3"><!-- Start of Custom Header Code -->
+
+<table border="0" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td height="130" width="431" align="left">
+        <img border="0" name="header_welcome" alt="" src="./Stanford Infant School  _files/GroupDownloadFile.asp" width="431" height="130"></td>
+      <td height="130" width="100" align="left">
+        <img border="0" name="header_middle" alt="" src="./Stanford Infant School  _files/GroupDownloadFile(1).asp" width="100" height="130"></td>
+      <td height="130" width="402" align="right">
+        <img border="0" name="header_swan" alt="" src="./Stanford Infant School  _files/GroupDownloadFile(2).asp" height="130"></td>
+
+<td align="center" height="130" style="background-image:
+url(https://www.school-portal.co.uk/GroupDownloadFile.asp?GroupId=585740
+&amp;ResourceID=2812411); background-repeat: repeat-x; width:100%;
+height:130px;"></td>
+    </tr>
+  </tbody>
+</table>
+
+<div valign="top" style="text-align: center; margin-bottom:10px "><span style="font-family: Verdana; font-size: 14px; font-weight: bold; color:
+blue;">
+Thursday 21st November 2013<br>
+Anti-Bullying Week<br>
+</span></div>
+
+
+
+
+
+
+<!--End of Header-->
+
+
+</td></tr>
+
+	<tr>
+		<td colspan="3" align="left">
+	
+
+
+	<style>
+
+	#menum2009550142647 {background-color : #336633; position : absolute; top : 10px; left : 10px; visibility : hidden; width : 125px; border-bottom-width : 1px;}
+#menum20096130153326 {background-color : #336633; position : absolute; top : 10px; left : 10px; visibility : hidden; width : 125px; border-bottom-width : 1px;}
+#menum20097200201222 {background-color : #336633; position : absolute; top : 10px; left : 10px; visibility : hidden; width : 125px; border-bottom-width : 1px;}
+#menum2009550142939 {background-color : #336633; position : absolute; top : 10px; left : 10px; visibility : hidden; width : 125px; border-bottom-width : 1px;}
+#menum2009551142842 {background-color : #336633; position : absolute; top : 10px; left : 10px; visibility : hidden; width : 125px; border-bottom-width : 1px;}
+#menum2009550142917 {background-color : #336633; position : absolute; top : 10px; left : 10px; visibility : hidden; width : 125px; border-bottom-width : 1px;}
+#menum200955114304 {background-color : #336633; position : absolute; top : 10px; left : 10px; visibility : hidden; width : 125px; border-bottom-width : 1px;}
+#menum20096130153524 {background-color : #336633; position : absolute; top : 10px; left : 10px; visibility : hidden; width : 125px; border-bottom-width : 1px;}
+#menum20101251205918 {background-color : #336633; position : absolute; top : 10px; left : 10px; visibility : hidden; width : 125px; border-bottom-width : 1px;}
+
+
+
+	#navbar {position : relative;} 
+	A.nav1 {
+
+	background-color : #336633; 
+
+	color: ffffff;
+	font : bold x-small tahoma, sans-serif; 
+	text-decoration : none; 
+	border : 1px solid #ccffcc;
+	text-align : center; 
+	text-indent : 2px;	
+	width : 100%; 
+	height: 18px;
+	display : block; 
+	} 
+	A.nav1:hover {
+
+	background-color : #ccffcc;
+
+	color: 336633;
+	font : bold x-small tahoma, sans-serif;
+	text-decoration : none;
+	border : 1px solid #ccffcc;
+	text-align : center; 
+	text-indent : 2px;
+	vertical-align : middle;
+	width : 100%;
+	height: 18px;
+	display : block; 
+	} 
+	A.menulink1 {
+	background-color : #336633; 
+	color: ffffff;
+	font : bold xx-small tahoma, sans-serif; 
+	text-decoration : none; 
+	text-indent : 2px;
+	font-weight : bold;
+	border-bottom : 1px solid #ccffcc; 
+	border-left : 1px solid #ccffcc; 
+	border-right : 1px solid #ccffcc; 
+	width : 125px; 
+	height: 18px;
+	display : block; 
+	}
+	A.menulink1st {
+	background-color : #336633; 
+	color: ffffff;
+	font : bold xx-small tahoma, sans-serif; 
+	text-decoration : none; 
+	text-indent : 2px;	
+	border : 1px solid #ccffcc;
+	width : 125px; 
+	height: 18px;
+	display : block; 
+	}
+
+	A.menulink1:hover {
+	background-color : #ccffcc;
+	color: 336633;
+	font : bold xx-small tahoma, sans-serif; 
+	text-decoration : none; 
+	text-indent : 2px;
+	border-bottom : 1px solid #ccffcc; 
+	border-left : 1px solid #ccffcc; 
+	border-right : 1px solid #ccffcc; 
+	width : 125px; 
+	height: 18px;
+	display : block; 
+	} 
+	A.menulink1st:hover {
+	background-color : #ccffcc;
+	color: 336633;
+	font : bold  xx-small tahoma, sans-serif; 
+	text-decoration : none; 
+	text-indent : 2px;
+	border : 1px solid #ccffcc;
+	width : 125px; 
+	height: 18px;
+	display : block; 
+	}
+	A.close {
+	background-color : #ccffcc; 
+	color: 336633;
+	font : normal xx-small tahoma, sans-serif; 
+	text-decoration : none; 
+	border : 1px solid #336633;
+	width : 125px; 
+	height: 17px;
+	display : block; 
+	} 
+	A.close:hover {
+	background-color :  #ccffcc; 
+	color: ffffff;
+	font : normal xx-small tahoma, sans-serif; 
+	text-decoration : none; 
+	border : 1px solid #336633;
+	width : 125px; 
+	height: 17px;
+	display : block; 
+	} 	
+
+	</style> 
+
+	<script type="text/javascript" language="JavaScript">
+	<!--
+	var howmanymenus = 8;
+	if (howmanymenus < 0) {
+		var menunames = new Array(0);
+		var navwidth = new Array(0);
+		}
+	else {
+		var menunames = new Array(howmanymenus);
+		var navwidth = new Array(howmanymenus);
+	}
+
+	menunames[0] = 'menum2009550142647';
+navwidth[0] = 125;
+menunames[1] = 'menum20096130153326';
+navwidth[1] = 125;
+menunames[2] = 'menum20097200201222';
+navwidth[2] = 125;
+menunames[3] = 'menum2009550142939';
+navwidth[3] = 125;
+menunames[4] = 'menum2009551142842';
+navwidth[4] = 125;
+menunames[5] = 'menum2009550142917';
+navwidth[5] = 125;
+menunames[6] = 'menum200955114304';
+navwidth[6] = 125;
+menunames[7] = 'menum20096130153524';
+navwidth[7] = 125;
+menunames[8] = 'menum20101251205918';
+navwidth[8] = 125;
+
+	
+	
+
+	   function ResetMenuLocations()
+	    {
+	       var sTopMenuName, temp        	
+	       
+              var myWidth = 0
+              if( typeof( window.innerWidth ) == 'number' ) {
+                //Non-IE
+                myWidth = window.innerWidth;
+              } else if( document.documentElement && ( document.documentElement.clientWidth || document.documentElement.clientHeight ) ) {
+                //IE 6+ in 'standards compliant mode'
+                myWidth = document.documentElement.clientWidth;
+              } else if( document.body && ( document.body.clientWidth || document.body.clientHeight ) ) {
+                //IE 4 compatible
+                myWidth = document.body.clientWidth;
+              }	       
+	       
+	       var lMenuItemsDisplayed
+	       lMenuItemsDisplayed = Math.floor(myWidth/125);   
+           
+           for (i=0;i<=menunames.length-1;i=i+1) 
+           {
+           
+           
+                sTopMenuName = "top" + menunames[i];
+                navwidth[i] = document.getElementById(sTopMenuName).offsetWidth-4;
+                if (i==lMenuItemsDisplayed)
+                {
+                    navwidth[i] = document.getElementById(sTopMenuName).offsetWidth-2;
+                    document.getElementById(menunames[i]).pixelLeft = document.getElementById(menunames[i]).pixelLeft+50;
+                }
+                else 
+                {
+                    document.getElementById(sTopMenuName).pixelLeft = document.getElementById(sTopMenuName).pixelLeft+50;
+                }
+           }	 
+	    }
+	    
+
+	
+
+	var cellpad=2;
+	var effectopen = 5;
+	var effectclose = 1;
+	var buttonwidth = 125;
+	var buttonheight = 16;
+	var menudir ='hor';
+	var path_to_stylesheet ='';
+	// -->
+	</script>
+
+	<script type="text/javascript" language="JavaScript" src="./Stanford Infant School  _files/cbddm.js"> </script>
+	
+
+	
+	<script type="text/javascript" language="JavaScript">addEvent(window, 'load', startMenu);</script>
+
+
+    <script language="JavaScript" type="text/javascript">addEvent(window, 'load', ResetMenuLocations);</script>
+
+
+
+<div width="100%" align="left" style=" background-image : url(&#39;/platforms/585740/images/MenuHeaderBackground.gif&#39;);">
+
+	<div style="position : relative; z-index : 9999;
+			left : 10;top : 0;
+		">
+			<table cellspacing="0" cellpadding="2" border="0" id="navbar"><tbody><tr>
+<td nowrap="" id="topmenum2009550142647" width="125"><a href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=585740" onmouseover="toggle_menu(&#39;menum2009550142647&#39;,1); return false;" onmouseout="killMenu(&#39;menum2009550142647&#39;)" class="nav1" title="Home">Home</a><img src="./Stanford Infant School  _files/trans.gif" width="125px" height="0px"></td>
+<td nowrap="" id="topmenum20096130153326" width="125"><a href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=802594" onmouseover="toggle_menu(&#39;menum20096130153326&#39;,1); return false;" onmouseout="killMenu(&#39;menum20096130153326&#39;)" class="nav1" title="School">School</a><img src="./Stanford Infant School  _files/trans.gif" width="125px" height="0px"></td>
+<td nowrap="" id="topmenum20097200201222" width="125"><a href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=803239" onmouseover="toggle_menu(&#39;menum20097200201222&#39;,1); return false;" onmouseout="killMenu(&#39;menum20097200201222&#39;)" class="nav1" title="Clubs">Clubs</a><img src="./Stanford Infant School  _files/trans.gif" width="125px" height="0px"></td>
+<td nowrap="" id="topmenum2009550142939" width="125"><a href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=712348" onmouseover="toggle_menu(&#39;menum2009550142939&#39;,1); return false;" onmouseout="killMenu(&#39;menum2009550142939&#39;)" class="nav1" title="PTFA">PTFA</a><img src="./Stanford Infant School  _files/trans.gif" width="125px" height="0px"></td>
+<td nowrap="" id="topmenum2009551142842" width="125"><a href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=712346" onmouseover="toggle_menu(&#39;menum2009551142842&#39;,1); return false;" onmouseout="killMenu(&#39;menum2009551142842&#39;)" class="nav1" title="Pupils">Pupils</a><img src="./Stanford Infant School  _files/trans.gif" width="125px" height="0px"></td>
+<td nowrap="" id="topmenum2009550142917" width="125"><a href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=712347" onmouseover="toggle_menu(&#39;menum2009550142917&#39;,1); return false;" onmouseout="killMenu(&#39;menum2009550142917&#39;)" class="nav1" title="Staff Room">Staff Room</a><img src="./Stanford Infant School  _files/trans.gif" width="125px" height="0px"></td>
+<td nowrap="" id="topmenum200955114304" width="125"><a href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=712349" onmouseover="toggle_menu(&#39;menum200955114304&#39;,1); return false;" onmouseout="killMenu(&#39;menum200955114304&#39;)" class="nav1" title="Governors">Governors</a><img src="./Stanford Infant School  _files/trans.gif" width="125px" height="0px"></td>
+<td nowrap="" id="topmenum20096130153524" width="125"><a href="http://www.school-portal.co.uk/GroupHomepage.asp?GroupID=712312" onmouseover="toggle_menu(&#39;menum20096130153524&#39;,1); return false;" onmouseout="killMenu(&#39;menum20096130153524&#39;)" class="nav1" title="Contact">Contact</a><img src="./Stanford Infant School  _files/trans.gif" width="125px" height="0px"></td>
+<td nowrap="" id="topmenum20101251205918" width="125"><a href="http://www.school-portal.co.uk/GroupRenderCustomPage.asp?GroupID=585740&ResourceID=2808355" onmouseover="toggle_menu(&#39;menum20101251205918&#39;,1); return false;" onmouseout="killMenu(&#39;menum20101251205918&#39;)" class="nav1" title="Login">Login</a><img src="./Stanford Infant School  _files/trans.gif" width="125px" height="0px"></td>
+</tr></tbody></table>
+
+<a name="#menum2009550142647"></a> 
+<div id="menum2009550142647" style="filter:revealTrans(duration=0, transition=0);" onmouseout="killMenu(&#39;menum2009550142647&#39;)" onmouseover="checkMenu();"> 
+<layer name="menum2009550142647" onmouseout="killMenu(&#39;m2009550142647&#39;)" onmouseover="checkMenu();"> 
+</layer></div> 
+
+<a name="#menum20096130153326"></a> 
+<div id="menum20096130153326" style="filter:revealTrans(duration=0, transition=0);" onmouseout="killMenu(&#39;menum20096130153326&#39;)" onmouseover="checkMenu();"> 
+<layer name="menum20096130153326" onmouseout="killMenu(&#39;m20096130153326&#39;)" onmouseover="checkMenu();"> 
+<table width="125" cellspacing="0" cellpadding="0" border="0"> 
+<tbody><tr><td nowrap=""> 
+<a class="menulink1st" href="http://www.school-portal.co.uk/GroupHomepage.asp?GroupID=1229050" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Curriculum Information</a>
+<a class="menulink1" href="http://www.school-portal.co.uk/GroupHomepage.asp?GroupID=1211322" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Equalities Information</a>
+<a class="menulink1" href="http://www.school-portal.co.uk/GroupHomepage.asp?GroupID=1235139" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Inclusion</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=826077" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Internet Safety</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=822525" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;News</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=822524" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Newsletters</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815758" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Ofsted Report</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815784" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Our Aims</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=896006" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Parents</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815783" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;People at Stanford</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=802595" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Policies</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupRenderCustomPage.asp?GroupID=1077444&ResourceId=3533325" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Prospectus</a>
+<a class="menulink1" href="http://www.school-portal.co.uk/GroupHomepage.asp?GroupID=1222526" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Pupil Premium</a>
+<a class="menulink1" href="http://www.school-portal.co.uk/GroupHomepage.asp?GroupID=1222525" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;School Admissions</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=816362" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;School Meals</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=802596" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Staff</a>
+<a class="menulink1" href="http://www.school-portal.co.uk/GroupHomepage.asp?GroupID=885320" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Term Dates</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815892" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Tour of the School</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=826119" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Uniform</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=1036217" onclick="goSub(&#39;#&#39;,&#39;menum20096130153326&#39;,&#39;&#39;);">&nbsp;&nbsp;Vacancies</a>
+
+</td> 
+</tr> 
+</tbody></table></layer></div> 
+
+<a name="#menum20097200201222"></a> 
+<div id="menum20097200201222" style="filter:revealTrans(duration=0, transition=0);" onmouseout="killMenu(&#39;menum20097200201222&#39;)" onmouseover="checkMenu();"> 
+<layer name="menum20097200201222" onmouseout="killMenu(&#39;m20097200201222&#39;)" onmouseover="checkMenu();"> 
+<table width="125" cellspacing="0" cellpadding="0" border="0"> 
+<tbody><tr><td nowrap=""> 
+<a class="menulink1st" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815886" onclick="goSub(&#39;#&#39;,&#39;menum20097200201222&#39;,&#39;&#39;);">&nbsp;&nbsp;Breakfast Club</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815887" onclick="goSub(&#39;#&#39;,&#39;menum20097200201222&#39;,&#39;&#39;);">&nbsp;&nbsp;After School Activity Clubs</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=828286" onclick="goSub(&#39;#&#39;,&#39;menum20097200201222&#39;,&#39;&#39;);">&nbsp;&nbsp;After School Club</a>
+
+</td> 
+</tr> 
+</tbody></table></layer></div> 
+
+<a name="#menum2009550142939"></a> 
+<div id="menum2009550142939" style="filter:revealTrans(duration=0, transition=0);" onmouseout="killMenu(&#39;menum2009550142939&#39;)" onmouseover="checkMenu();"> 
+<layer name="menum2009550142939" onmouseout="killMenu(&#39;m2009550142939&#39;)" onmouseover="checkMenu();"> 
+</layer></div> 
+
+<a name="#menum2009551142842"></a> 
+<div id="menum2009551142842" style="filter:revealTrans(duration=0, transition=0);" onmouseout="killMenu(&#39;menum2009551142842&#39;)" onmouseover="checkMenu();"> 
+<layer name="menum2009551142842" onmouseout="killMenu(&#39;m2009551142842&#39;)" onmouseover="checkMenu();"> 
+<table width="125" cellspacing="0" cellpadding="0" border="0"> 
+<tbody><tr><td nowrap=""> 
+<a class="menulink1st" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=712360" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;Reception</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=712361" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;Year 1</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=712362" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;Year 2</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=902256" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;Challenge Zone</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=902333" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;Collaborative Projects</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815782" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;Eco Warriors</a>
+<a class="menulink1" href="http://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815896" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;Fun</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815781" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;School Council</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815931" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;School Visits and Trips</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=866214" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;Special Events</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupRenderCustomPage.asp?GroupID=712346&ResourceID=2808555" onclick="goSub(&#39;#&#39;,&#39;menum2009551142842&#39;,&#39;&#39;);">&nbsp;&nbsp;Gallery</a>
+
+</td> 
+</tr> 
+</tbody></table></layer></div> 
+
+<a name="#menum2009550142917"></a> 
+<div id="menum2009550142917" style="filter:revealTrans(duration=0, transition=0);" onmouseout="killMenu(&#39;menum2009550142917&#39;)" onmouseover="checkMenu();"> 
+<layer name="menum2009550142917" onmouseout="killMenu(&#39;m2009550142917&#39;)" onmouseover="checkMenu();"> 
+<table width="125" cellspacing="0" cellpadding="0" border="0"> 
+<tbody><tr><td nowrap=""> 
+<a class="menulink1st" href="http://imail.stanford-inf.brighton-hove.sch.uk/" onclick="goSub(&#39;#&#39;,&#39;menum2009550142917&#39;,&#39;&#39;);" target="_blank">&nbsp;&nbsp;Email</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=815893" onclick="goSub(&#39;#&#39;,&#39;menum2009550142917&#39;,&#39;&#39;);">&nbsp;&nbsp;Websites</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=816064" onclick="goSub(&#39;#&#39;,&#39;menum2009550142917&#39;,&#39;&#39;);">&nbsp;&nbsp;Yearly Calendar</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=816744" onclick="goSub(&#39;#&#39;,&#39;menum2009550142917&#39;,&#39;&#39;);">&nbsp;&nbsp;Reception</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=816740" onclick="goSub(&#39;#&#39;,&#39;menum2009550142917&#39;,&#39;&#39;);">&nbsp;&nbsp;Year One</a>
+<a class="menulink1" href="https://www.school-portal.co.uk/GroupHomepage.asp?GroupID=816742" onclick="goSub(&#39;#&#39;,&#39;menum2009550142917&#39;,&#39;&#39;);">&nbsp;&nbsp;Year Two</a>
+
+</td> 
+</tr> 
+</tbody></table></layer></div> 
+
+<a name="#menum200955114304"></a> 
+<div id="menum200955114304" style="filter:revealTrans(duration=0, transition=0);" onmouseout="killMenu(&#39;menum200955114304&#39;)" onmouseover="checkMenu();"> 
+<layer name="menum200955114304" onmouseout="killMenu(&#39;m200955114304&#39;)" onmouseover="checkMenu();"> 
+</layer></div> 
+
+<a name="#menum20096130153524"></a> 
+<div id="menum20096130153524" style="filter:revealTrans(duration=0, transition=0);" onmouseout="killMenu(&#39;menum20096130153524&#39;)" onmouseover="checkMenu();"> 
+<layer name="menum20096130153524" onmouseout="killMenu(&#39;m20096130153524&#39;)" onmouseover="checkMenu();"> 
+</layer></div> 
+
+<a name="#menum20101251205918"></a> 
+<div id="menum20101251205918" style="filter:revealTrans(duration=0, transition=0);" onmouseout="killMenu(&#39;menum20101251205918&#39;)" onmouseover="checkMenu();"> 
+<layer name="menum20101251205918" onmouseout="killMenu(&#39;m20101251205918&#39;)" onmouseover="checkMenu();"> 
+</layer></div> 
+
+
+	</div>
+
+</div>
+
+</td>
+	</tr>
+
+		
+	
+</tbody></table>
+
+
+		</td>
+	</tr>
+
+	
+	<tr valign="top">
+
+			
+			<td width="82%">
+		
+
+<!-- ************************************* begin page ********************************************* -->
+<div class="groupstyle">
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="2" align="center">
+	
+	<tbody><tr>
+		<td>
+			<table cellpadding="2" cellspacing="2" border="0" width="100%">
+				<tbody><tr>
+					<td width="100%" valign="top">
+						
+						<table border="0" width="100%" cellpadding="4" cellspacing="2">
+												
+									<tbody><tr><td valign="top" width="50%"><table style="WIDTH: 100%; BORDER-COLLAPSE: collapse">
+<tbody>
+<tr>
+<td>
+<table style="WIDTH: 100%; BORDER-COLLAPSE: collapse">
+<tbody>
+<tr>
+<td>
+<div align="center"><img border="0" alt="Children in Need 2013!" src="./Stanford Infant School  _files/GroupDownloadAttachment.asp" width="180" height="240"></div></td>
+<td>
+<div align="center"><img border="0" alt="Children in Need 2013!" src="./Stanford Infant School  _files/GroupDownloadAttachment(1).asp" width="320" height="240"><br></div></td>
+<td>
+<div align="center">&nbsp;</div>
+<div align="center">&nbsp;</div></td></tr></tbody></table>
+<p>&nbsp;</p></td></tr>
+<tr>
+<td>
+<h4><span style="FONT-FAMILY: Verdana; COLOR: #229c22; FONT-SIZE: small">WELCOME!</span></h4>
+<div><span style="FONT-SIZE: small">Stanford Infant School is a three form entry school from Reception to Year Two, where we deliver a rich and creative curriculum to inspire and excite every child and celebrate diversity. Consequently, children come to school happy and eager to learn.<br><br></span></div>
+<div><span style="FONT-SIZE: small">We work in true partnership with our parents and governors and are a community of learners. We are extremely proud of our school and hope that this website gives you a flavour of life here, but remember there can be no substitute for a personal visit; we therefore look forward to showing you round our school and answering any questions you have.</span></div>
+<h4><br><span style="FONT-FAMILY: Verdana; COLOR: #229c22; FONT-SIZE: small">FEEDBACK ON OUR WEBSITE</span></h4>
+<div><span style="FONT-SIZE: small">We are really pleased with the development of our website and hope you are too – we would welcome any feedback you may have. Please </span><a href="mailto:m.denyer@stanford-inf.brighton-hove.sch.uk?subject=I%20have%20some%20feedback%20for%20the%20new%20Stanford%20Infant%20School%20website"><span style="FONT-SIZE: small">click here</span></a> <span style="FONT-SIZE: small">if you have any comments or suggestions. <br></span></div></td></tr></tbody></table></td><td valign="top" rowspan="2">
+
+<div width="100%" style="padding:1px;">
+	<div class="uniBlock">
+		<h2 class="uniBlockHeading">&nbsp;Calendar</h2>
+	<div class="uniBlockBackground">
+			
+			<div>
+				<a href="https://www.school-portal.co.uk//GroupCalendarDisplay.asp?GroupID=585740&EventID=671267" title="Anti-Bullying Week - &#39;The Future is Ours&#39; ">Anti-Bullying Week - 'The Future is Ours' </a>
+				<br>
+				
+				18th November 2013 - 22nd November 2013
+			</div><br>
+				
+			<div>
+				<a href="https://www.school-portal.co.uk//GroupCalendarDisplay.asp?GroupID=585740&EventID=671266" title="Full Governing Body Meeting ">Full Governing Body Meeting </a>
+				<br>
+				
+				21st November 2013
+			</div><br>
+				
+			<div>
+				<a href="https://www.school-portal.co.uk//GroupCalendarDisplay.asp?GroupID=585740&EventID=671268" title="Road Safety Week">Road Safety Week</a>
+				<br>
+				
+				25th November 2013 - 29th November 2013
+			</div><br>
+				
+			<div>
+				<a href="https://www.school-portal.co.uk//GroupCalendarDisplay.asp?GroupID=585740&EventID=671271" title="Prospective Parents Open Day ">Prospective Parents Open Day </a>
+				<br>
+				
+				28th November 2013
+			</div><br>
+				
+			<div>
+				<a href="https://www.school-portal.co.uk//GroupCalendarDisplay.asp?GroupID=585740&EventID=678567" title="Maths Week!">Maths Week!</a>
+				<br>
+				
+				2nd December 2013 - 6th December 2013
+			</div><br>
+			
+		<div align="right">
+			<a href="https://www.school-portal.co.uk//GroupCalendar.asp?GroupID=585740" title="more...">more...</a>
+		</div>					
+	</div>
+	</div>	
+</div>
+<br><br>
+
+		<div width="100%" style="padding:1px;">
+			<div class="uniBlock">
+				<h2 class="uniBlockHeading">&nbsp;Latest News</h2>
+				<div class="uniBlockBackground">
+				
+					<div>
+						<a href="https://www.school-portal.co.uk//GroupNewsItem.asp?GroupID=585740&NewsID=60884" title="Newsletter 6 Online Now">Newsletter 6 Online Now</a><br>
+						<br>08 November 2013<br>
+					</div><br>
+						
+					<div>
+						<a href="https://www.school-portal.co.uk//GroupNewsItem.asp?GroupID=585740&NewsID=83237" title="Updated Attendance and Punctuality Policy in the Policies Section">Updated Attendance and Punctuality Policy in the Policies Section</a><br>
+						<br>30 September 2013<br>
+					</div><br>
+						
+					<div>
+						<a href="https://www.school-portal.co.uk//GroupNewsItem.asp?GroupID=585740&NewsID=82879" title="Welcome Back - we look forward to seeing our families on Wednesday as we begin a new academic year.">Welcome Back - we look forward to seeing our families on Wednesday as we begin a new academic year.</a><br>
+						<br>02 September 2013<br>
+					</div><br>
+						
+					<div>
+						<a href="https://www.school-portal.co.uk//GroupNewsItem.asp?GroupID=585740&NewsID=81978" title="DRAFT E-Safety Policy in the Policies Section">DRAFT E-Safety Policy in the Policies Section</a><br>
+						<br>03 May 2013<br>
+					</div><br>
+						
+					<div>
+						<a href="https://www.school-portal.co.uk//GroupNewsItem.asp?GroupID=585740&NewsID=80201" title="Governors Response to parents in Whole School letters under parents">Governors Response to parents in Whole School letters under parents</a><br>
+						<br>21 December 2012<br>
+					</div><br>
+						
+					
+					<div align="right">
+						<a href="https://www.school-portal.co.uk//GroupNews.asp?GroupID=585740" title="more...">more...</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br><br>
+<span style="FONT-SIZE: small" class="Apple-style-span"><br>
+<p style="MARGIN: 0cm 0cm 0pt" class="MsoNormal"><!--?xml:namespace prefix = st1 /--><st1:place w:st="on"><st1:placename w:st="on"><span style="FONT-FAMILY: Verdana"><br></span></st1:placename></st1:place><span style="FONT-FAMILY: Verdana"></span></p></span><span style="FONT-SIZE: medium" class="Apple-style-span"></span></td></tr>
+						
+						</tbody></table>
+					
+					</td>
+				</tr>
+			</tbody></table>
+		</td>
+	</tr>
+</tbody></table>
+</div>
+<!-- *************************************  end page  ********************************************* -->
+
+		</td>
+		
+		
+	</tr>
+	
+	<tr>
+		<td width="100%" colspan="3" align="center"><table style="BORDER-BOTTOM: black 1px solid; BORDER-LEFT: black 1px solid; BACKGROUND: url(https://www.school-portal.co.uk/GroupDownloadFile.asp?GroupId=585740&amp;ResourceID=2808454) #339900; BORDER-TOP: black 1px solid; BORDER-RIGHT: black 1px solid; align: center" width="100%" height="44">
+<tbody>
+<tr>
+<td>
+<p align="center"><img border="1" alt="" src="./Stanford Infant School  _files/GroupDownloadAttachment(2).asp" width="34" height="34"> <img border="1" alt="" src="./Stanford Infant School  _files/GroupDownloadAttachment(3).asp" width="73" height="34"> <img border="1" alt="" src="./Stanford Infant School  _files/GroupDownloadAttachment(4).asp" width="159" height="34"> <img border="1" alt="" src="./Stanford Infant School  _files/GroupDownloadAttachment(5).asp" width="65" height="34"> <img style="BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid" alt="" src="./Stanford Infant School  _files/GroupDownloadAttachment(6).asp" width="34" height="34">&nbsp;<img style="BORDER-BOTTOM: #000000 1px solid; BORDER-LEFT: #000000 1px solid; BORDER-TOP: #000000 1px solid; BORDER-RIGHT: #000000 1px solid" alt="" src="./Stanford Infant School  _files/GroupDownloadAttachment(7).asp" width="34" height="34"></p></td></tr></tbody></table></td>
+	</tr>
+	
+</tbody></table>
+
+
+        <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        </script><script src="./Stanford Infant School  _files/ga.js" type="text/javascript"></script>
+        <script type="text/javascript">
+        try {
+        var pageTracker2 = _gat._getTracker("UA-7882052-1");
+        pageTracker2._trackPageview();
+        } catch(err) {}</script>
+
+    
+
+
+<!--This page (/GroupHomePage.asp) loaded in 31.25 milliseconds. Started to load at 21/11/2013 12:42:31 and finished at 21/11/2013 12:42:31.--></body></html>

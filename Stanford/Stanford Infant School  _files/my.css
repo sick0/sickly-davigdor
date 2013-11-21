@@ -1,0 +1,32 @@
+/*AdvancedView:0,BorderColour:ffffff,BackgroundColour:ccffcc,LinkFontColour:003300,,,LinkHoverFontColour:003300,,,HeadingColour:003300,,HeadingFontWeight:normal,HeadingFontSize:small,HeadingBackgroundColour:ffffff,,,,,,,,,,,,,,,,,,,,,BodyBlockColour:336633,BodyBlockHeadingColour:ffffff,,BodyBlockHeadingFontWeight:normal,BodyBlockHeadingFontSize:small,BodyBlockBackgroundColour:ccffcc,,BodyFont:Verdana,BodyFontSize:x-small,BodyHeadingFontColour:000000,,BodyHeadingFontSize:small,BodyHeadingFontWeight:normal,,HRColour:ffffff*/
+.mystylegrouppanel {}
+.mystyle .tc{background-color : ffffff;height : 0px;color : 003300;font-Size: small;font-weight: normal;padding:0.4em;padding-left:0.5em;background-repeat:repeat-x;}	
+.mystyle .tc a{ color : 003300;font-weight: normal;font-Size: small;text-decoration:none; } 
+.mystyle .tc a:hover{ color : 003300;font-weight: normal;font-Size: small;text-decoration:underline; } 
+.mystyle .mc {background-color : ccffcc;border : 1px solid #ffffff;padding:0.3em;}
+.mystyle .bl,mystyle .bc,mystyle .br {visibility:hidden;display:none;}
+.mystyle .hr {margin-top:5px;margin-bottom:5px;overflow:hidden; height:1px; background-color : ffffff;}
+.mystyle hr {border: none 0; border-top: 1px solid #; }
+.mystyle a {color : 003300;}
+.mystyle a:hover {color : 003300;}
+.mystyle .uniSection h2{color : 000000;font-Size: small;font-weight: normal;padding-top:0.4em;padding-bottom:0.2em;}
+.mystyle .uniSection h2 a{color : 000000;font-Size: small;font-weight: normal;padding-top:0.4em;padding-bottom:0.2em;}
+.mystyle .uniBlock{border:1px solid #336633;}
+.mystyle .uniBlockHeading {background-color : 336633;color : ffffff;font-weight: normal;font-Size: small;padding:0.2em;}
+.mystyle .uniBlockHeading a{background-color : 336633;color : ffffff;font-weight: normal;font-Size: small;padding:0.2em;}
+.mystyle .uniBlockBackground {background-color: ccffcc;padding:0.2em;}
+.mystyle .uniTable {border-collapse:collapse;margin-top:0.5em;margin-bottom:0.5em;}
+.mystyle .uniTable td {border:1px solid #336633;background-color: ccffcc;padding:0.2em;}
+.mystyle .uniTable th {border:1px solid #336633;background-color : 336633;color : ffffff;font-weight: normal;font-Size: small;}
+.mystyle .uniTable th a{color : ffffff;}
+.mystyle .uniBackground {background-color : ccffcc;}
+.mystyle .uniButton {color : ffffff;background-color : 336633;margin-bottom:2px} 	
+.mystyle td {font-family : Verdana;font-Size: x-small;}
+.mystyle div {font-family : Verdana;font-Size: x-small;}
+.mystyle legend {color : 000000;font-Size: small;font-weight: normal;;}
+.mystyle label {font-family : Verdana;font-Size: x-small;}
+.mystyle input {font-family : Verdana;font-Size: x-small;}
+.mystyle select {font-family : Verdana;font-Size: x-small;}
+.mystyle textarea {font-family : Verdana;font-Size: x-small;}
+.mystyle fieldset {border-color:#ffffff; }
+.mystyle fieldset .sub legend{font-family : Verdana;font-Size: x-small;font-weight:normal;}
