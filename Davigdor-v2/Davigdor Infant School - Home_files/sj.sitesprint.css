@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hide UI */
+.system.wa-appbar,
+.system.wa-appbar-fixed,
+.system.title,
+.system.shadow,
+.system.pane,
+.system.pane-greyout,
+#debug {
+    display: none;
+}
+
+/* Hide non-necessary page elements */
+#search,
+.sj_actions {
+    display: none;
+}
+

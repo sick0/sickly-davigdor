@@ -1,0 +1,101 @@
+
+/*ul.m_root
+ul.m_child
+ul.m_horizontal
+ul.m_vertical
+
+
+li---
+m_first
+m_last
+m_current
+m_category_page
+m_parent
+m_parent_inside
+
+span---
+m_arrow
+m_down
+m_right*/
+
+
+.sj_dropdown ul { 
+    list-style: none;
+    overflow: hidden;
+}
+.sj_dropdown ul.m_root { 
+}
+
+
+
+.sj_dropdown ul.m_horizontal { 
+    margin-left: 0px;
+}
+.sj_dropdown ul.m_root.m_horizontal li {
+    display: inline;
+    margin: 0px 3px;
+}
+.sj_dropdown ul.m_root.m_horizontal ul.m_child { 
+    display: none;
+}
+.sj_dropdown ul.m_root.m_horizontal ul.m_child li { 
+    display: inline-block;
+}
+.sj_dropdown ul.m_root.m_horizontal li.m_parent { 
+
+}
+
+
+
+
+
+.sj_dropdown>ul.m_child.m_vertical { 
+    background-color: #efefef
+}
+.sj_dropdown>ul.m_child.m_vertical li {
+
+}
+.sj_dropdown>ul.m_child.m_vertical li span {
+    display: none;
+}
+
+
+
+
+.sj_dropdown ul li { }
+.sj_dropdown ul li.m_first { }
+.sj_dropdown ul li.m_last { }
+.sj_dropdown ul li.m_current a{ 
+    font-weight: bold;
+}
+.sj_dropdown ul li.m_category_page { }
+
+.sj_dropdown ul.m_vertical .sj_dropdown ul li.m_parent_inside { 
+    border-bottom: 1px solid #efefef;
+}
+
+
+
+
+
+
+
+
+
+.sj_dropdown ul li span.m_arrow { 
+    background-image: url('../../bootstrap/img/glyphicons-halflings.png');
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 1px;
+    margin-left: 5px;
+    vertical-align: text-top;
+    width: 14px;
+}
+.sj_dropdown ul li span.m_arrow.m_down { 
+    background-position: -313px -119px;
+}
+.sj_dropdown ul li span.m_arrow.m_right { 
+    background-position: -456px -72px;
+}

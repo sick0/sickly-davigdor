@@ -1,0 +1,113 @@
+/* calendar view */
+.fc table { 
+    margin-bottom: 0px;
+}
+.fc-view {
+    overflow: inherit;
+}
+.fc-header-title h2 {
+	font-size: 1.1em;
+}
+.fc-header .btn.small { 
+	margin: 0;
+}
+.fc-state-default {
+	border: 0 none;
+}
+
+/* calendar button styles added */
+
+.fc-header-left .fc-button .btn {
+    text-align: center;
+}
+
+.fc-header .fc-header-right .btn.small,
+.fc-header .fc-header-left .btn.small {
+    border-radius: 0px;
+}
+
+.fc-header-right :first-child .btn.small,
+.fc-header-right :first-child,
+.fc-header-left :first-child .btn.small,
+.fc-header-left :first-child {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.fc-header-right :last-child,
+.fc-header-right :last-child .btn.small,
+.fc-header-left :last-child .btn.small,
+.fc-header-left :last-child {
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.fc-button-month .btn,
+.fc-button-prev .btn
+{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.fc-button-agendaWeek .btn {
+    border-radius: 0;
+}
+
+.fc-button-agendaDay .btn,
+.fc-button-next .btn
+{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.fc-state-down,
+.fc-state-down .fc-button-inner {
+	border-color: transparent;
+	background: none;
+}
+
+.fc-state-active,
+.fc-state-active .fc-button-inner {
+	border-color: transparent;
+	background: none;
+}
+
+
+/* jQuery.placeholder */
+.placeholder {
+	color: #aaa;
+}
+.placeholderFocus {
+	color: #000;
+}
+
+/* TinyMCE tables */
+.mceItemTable {
+	width: inherit;
+}
+
+.popover-calendar {
+	z-index: 600;
+}
+
+/* Hide editor */
+.mceEditor {
+	display: none;
+}
+
+.mce-content-body div.mce-resizehandle {
+    z-index: 500;
+}
+
+/* Magnificpopup */
+.mfp-wrap,
+.mfp-bg {
+	z-index: 2000;
+}
+button.mfp-close, 
+button.mfp-arrow {
+	z-index: 2001;
+}
+.mfp-figure:after {
+	box-shadow: 0px 0px 0px;
+}
