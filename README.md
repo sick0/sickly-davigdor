@@ -1,4 +1,4 @@
-Sickly Davigdor Test Site
-=========================
+Studybugs School Banner Preview Site
+====================================
 
-See [Sickly Davigdor Test Site](http://sick0.github.io/sickly-school-preview/).
+See [Studybugs School Banner Preview Site](http://sick0.github.io/sickly-school-preview/).
